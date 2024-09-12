@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0b1216;
+}
+
+/* NAV */
+
+.logo{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.fundoNav{
+    background-color: #212936;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 13px;
+}
+
+.botoes{
+    color: #fff;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+    margin-top: 3%;
+    font-weight: bolder;
+}
+
+.botoes:hover{
+    color: #9719ff;
+}
+
+.alinharPesquisar{
+    text-align: right;
+}
+
+.pesquisar{
+    width: 75%;
+    margin-top: 5%;
+    height: 30px;
+    background-color: #212936;
+    padding: 0%;
+    color: #fff;
+    
+}
+
+.pesquisar input::placeholder{
+    color: #fff;
+    text-decoration: #fff;
+    letter-spacing: 1px;
+    font-size: 1.0em;
+}
+
+.form-control{
+    background-color: #454b56;
+    border-color:#454b56 ;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.imagemMinhaConta{
+    width: 10%;
+    margin-top: -16%;
+}
+
+
+/* BANNER */
+
+.bannerTopo{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin: 0%;
+}
+
+/* CARDS */
+
+.titulos{
+    color: #fff;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tituloCategoria{
+    color: #fff;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.primeiroCard{
+    background:url("../imagens/imagem-fps.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 100%;
+    height: 500px;
+    margin-left: 40%;
+}
+
+.segundoCard{
+    background:url("../imagens/imagem-rpg.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 100%;
+    height: 500px;
+    margin-left: 20%;
+}
+
+.terceiroCard{
+    background:url("../imagens/imagem-battle.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 100%;
+    height: 500px;
+    margin-left: 1%;
+}
+
+.textoPrimeiroCard{
+    margin-top: 66%;
+    margin-left: 20%;
+    color: #9719ff;
+    font-size: 2.0em;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    letter-spacing: 3px;
+}
+
+
+.textoTerceiroCard{
+    margin-top: 68%;
+    color: #9719ff;
+    font-size: 1.5em;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    letter-spacing: 3px;
+}
+
+.zoom{
+    transition: all 0.3s ease-in-out;
+}
+
+.zoom:hover{
+    transform: scale(1.1);;
+}
+
+
+.botaoCard{
+    margin-left: 24%;
+}
+
+/* MAIS VENDIDOS */
+
+.caixaMaisVendidos{
+    width: 80%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.maisVendidos{
+    text-align: center;
+}
+
+/* BANNER2 */
+
+.banner2{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+/* RODAPE */
+
+.caixaRodape{
+    background-color: #212936;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 13px;
+    color: #fff;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.tamanhoRodape{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+
+/* PÁGINA JOGOS */
+
+.tituloJogos{
+    font-size: 2.0em;
+    font-family: 'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 6%;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.imagemJogos{
+    margin-top: 3%;
+}
+
+
+/* PÁGINA CONTATO */
+
+#conteudo_formulário{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+ .boxForm{
+    width: 100%;
+    margin: auto;
+    background-color: #0b1216;
+    height: auto;
+}
+
+ form{
+    background-color: #0b1216;
+    width: 100%; 
+    margin: auto;
+    font-family:'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.0em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding-left: 35%;
+
+}
+
+input, textarea{
+   font-family:'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bolder;
+   font-size: 1.2em;
+   background-color: #fff;
+   padding: 5px;
+   border-style: solid;
+   border-color: #fff;
+   border-radius: 10px;
+   width: 50%;
+}
+
+label{
+   font-family:'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #fff;
+   font-size: 1.3em;
+}
+
+input:hover, textarea:hover{
+  background-color:#b4b4b4;
+  border-color: #b4b4b4;
+}
+
+
+.botao {
+   font-family:'Microsoft Yi Baiti','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: #fff;
+   font-weight: normal;
+   font-size: 1.3em;
+   background-color: #9719ff;
+   padding: 5px;
+   border-color: #9719ff;
+   border-style: solid;
+   border-radius: 10px;
+   margin-right: 5%;
+   width: 20%;
+   margin-top: 1%;
+}
+
+.botao:hover {
+    background-color: #3c00ff;
+}
+
+
+#tMsg{
+    margin-top: 2%;
+}
+
